@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Electronics | Premium Tech</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-microchip"></i> Saloni Electronics
+        </div>
+        <div class="cart-icon" id="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Engineer Your World</h1>
+            <p>Premium components, development kits, and tech essentials for your next big project.</p>
+            <a href="#shop" class="btn-primary">Shop Now</a>
+        </div>
+    </section>
+
+    <main id="shop">
+        <div class="section-title">
+            <h2>Featured Equipment</h2>
+            <div class="underline"></div>
+        </div>
+        <div id="product-list" class="product-grid">
+            </div>
+    </main>
+
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <aside class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button class="close-cart" id="close-cart"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="cart-items-container" id="cart-items">
+            </div>
+        <div class="cart-footer">
+            <h3>Total: $<span id="total-price">0.00</span></h3>
+            <button class="btn-checkout" id="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </aside>
+
+    <div id="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
